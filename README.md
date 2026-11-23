@@ -1,53 +1,21 @@
-# SBS Service Knowledge OS
+# SBS HydraulikDoc — historical RAG prototype
 
-**Intelligente Suche in technischen Handbüchern | RAG-System für den Maschinenbau**
+> **Historical code, not the current HydraulikDoc product definition (November 2026).**
+> This repository contains an earlier Streamlit/LlamaIndex/LlamaParse-oriented technical-document retrieval prototype. It must not be used as evidence that the current HydraulikDoc inspection and service product exposes these features or is production-approved.
 
-Entwickelt von [SBS Deutschland GmbH](https://sbsdeutschland.com)
+## Current portfolio distinction
 
-## Features
+The [HydraulikDoc website](https://hydraulikdoc.de/) describes the current industrial service and inspection positioning. The more recent internal implementation is maintained separately; this public historical copy is **not** its source of truth.
 
-- PDF-Upload mit Tabellenextraktion (LlamaParse)
-- RAG-basierte Suche in technischen Dokumenten
-- Quellenangaben mit Seitenzahlen
-- Halluzinations-Schutz
-- Deutsche Benutzeroberfläche
+The approved SBS Deutschland core portfolio is:
+[NormPilot Industrie](https://app.normpilot-industrie.de/) · [HydraulikDoc](https://hydraulikdoc.de/) · [ReleaseProof](https://releaseproof.de/) · [Workflow Rescue](https://www.workflowrescue.de/leistungen/).
 
-## Tech Stack
+An earlier technical-handbook RAG concept and a newer hydraulic inspection workflow are not interchangeable products. No current customer deployment, certification, availability, pricing or support SLA is attested by this repository.
 
-- **Frontend:** Streamlit
-- **PDF-Parsing:** LlamaParse
-- **RAG-Engine:** LlamaIndex
-- **Vector Store:** Qdrant (In-Memory)
-- **LLM:** OpenAI GPT-4o
+## Historical technical contents
 
-## Installation
-```bash
-# Repository klonen
-git clone https://github.com/Luyzz22/sbs-service-knowledge-os.git
-cd sbs-service-knowledge-os
+This codebase includes Streamlit, PDF processing, LlamaIndex/LlamaParse and model API integration examples. Review every dependency, credential path, data flow and license before using historical code. Do not submit customer manuals, equipment data, personal data or credentials to demo/prototype services.
 
-# Virtual Environment
-python3 -m venv venv
-source venv/bin/activate
+The earlier implementation is preserved for traceability. This documentation correction does not delete files, move repositories, change deployment targets, or revoke users' access.
 
-# Abhängigkeiten installieren
-pip install -r requirements.txt
-
-# App starten
-streamlit run app.py
-```
-
-## API Keys
-
-Du benötigst:
-1. **LlamaCloud API Key:** https://cloud.llamaindex.ai/
-2. **OpenAI API Key:** https://platform.openai.com/api-keys
-
-## Lizenz
-
-Proprietär - SBS Deutschland GmbH
-
-## Kontakt
-
-- Website: [sbsdeutschland.com](https://sbsdeutschland.com)
-- GitHub: [@Luyzz22](https://github.com/Luyzz22)
+**Legal entity:** SBS Deutschland GmbH & Co. KG · https://sbsdeutschland.com/
